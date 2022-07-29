@@ -16,6 +16,11 @@ slider.oninput =function(){
 }
 
 function gereratePass(){
-    alert("Calma, mano!")
+    let pass="";
+
+    for(let i=0, n=charset.length; i<sliderElement.value; ++i){
+        pass+= charset.charAt(Math.floor(Math.random()* n))        
+    }
+    console.log(pass);
     
 }
