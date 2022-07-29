@@ -16,6 +16,6 @@ slider.oninput =function(){
 }
 
 function gereratePass(){
-    alert("Vamos gerar a senha")
+    alert("Calma, mano!")
     
 }
