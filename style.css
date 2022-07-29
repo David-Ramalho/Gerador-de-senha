@@ -28,7 +28,7 @@ body{
 
 .container-input span{
     color: rgb(255, 255, 255);
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .slider{
@@ -61,5 +61,26 @@ body{
     align-items: center;
     flex-direction: column;
     cursor: pointer;
-    color: brown;
+    
+}
+
+.title{
+    text-align: center;
+    color: rgb(214, 212, 209);
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.Password{    
+    background-color: rgb(39, 41, 41);
+    color: rgb(214, 212, 209);
+    font-size: 15px;
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-color: rgb(3, 58, 58);
 }
