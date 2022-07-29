@@ -14,3 +14,8 @@ sizePass.innerHTML = sliderElement.value;
 slider.oninput =function(){
     sizePass.innerHTML = this.value
 }
+
+function gereratePass(){
+    alert("Vamos gerar a senha")
+    
+}
