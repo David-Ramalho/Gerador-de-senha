@@ -176,8 +176,8 @@ body{
     font-size: 12px;
     font-weight: bold;
     margin: none;
-    border: none;   
-  
+    border: none;  
+      
 }
 
 .all-checkboxes legend{
@@ -199,5 +199,21 @@ body{
     flex-direction: column;
 }
 
+.showbox{
+    height: 40px;
+    background-color: rgb(2, 92, 131);
+    border: 0px;    
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 4px;
+    color: rgb(214, 212, 209);
+    font-weight: bold;
+    font-size: 15px;
+    transition: transform 0.2s;
+}
+
+.showbox:hover{
+    transform: scale(1.05);
+}
 
 

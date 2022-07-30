@@ -45,3 +45,10 @@ function showLock(){
     
     },10000);    
 }
+
+let persoPass= document.querySelector("#showbox");
+let persoMenu=document.querySelector("#all-checkboxes");
+
+function PersonalizarPass(){
+    persoMenu.classList.remove("hide");
+}
