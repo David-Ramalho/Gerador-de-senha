@@ -49,6 +49,16 @@ function showLock(){
 let persoPass= document.querySelector("#showbox");
 let persoMenu=document.querySelector("#all-checkboxes");
 
-function PersonalizarPass(){
-    persoMenu.classList.remove("hide");
-}
+
+function PersonalizarPass(){   
+    persoMenu.classList.remove("hide"); 
+    
+    setTimeout(()=>{
+        persoMenu.classList.add("hide");    
+    
+    },10000);
+      
+}  
+
+    
+
