@@ -37,6 +37,11 @@ function copyPass(){
 
 }
 
-function showLock(){
-    lock.classList.remove("hide");
+function showLock(){  
+   lock.classList.remove("hide");    
+
+    setTimeout(()=>{
+        lock.classList.add("hide");    
+    
+    },10000);    
 }
