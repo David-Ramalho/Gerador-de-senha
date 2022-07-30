@@ -165,3 +165,37 @@ body{
         opacity: 0.8;
     }
 }
+
+.all-checkboxes{
+    
+    border-radius: 10%;
+    width: 400px;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+   font-size: 10px;
+   font-weight: bold;
+   margin: none;
+   border: none;
+  
+}
+
+.all-checkboxes legend{
+    margin-top: 2px;
+    color: antiquewhite;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.all-checkboxes label{
+    color: antiquewhite;
+    margin-top: 2px;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
