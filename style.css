@@ -15,7 +15,7 @@ body{
     align-items: center;
     flex-direction: column;
     background-image: url(./assets/Back.jpg);
-    animation: logo-animation 700s infinite linear;
+    animation: logo-animation 500s infinite linear;
 }
 
 .logo{
@@ -156,7 +156,10 @@ body{
 }
 
 @keyframes logo-animation{
-    0%{background-position: 0 0;}
-    100%{background-position:-2122px;}
-  
+    0%, 100% {
+        background-position: 50% 0;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
 }
