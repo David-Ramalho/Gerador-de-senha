@@ -158,8 +158,10 @@ body{
 @keyframes logo-animation{
     0%, 100% {
         background-position: 50% 0;
+         opacity: 1; 
     }
     50% {
         background-position: 50% 100%;
+        opacity: 0.8;
     }
 }
