@@ -23,9 +23,14 @@ function generatePass(){
     {
         pass += charset.charAt(Math.floor(Math.random()* n));        
     }
-    console.log(pass);
+    //console.log(pass);
     containerPass.classList.remove("hide");
     password.innerHTML = pass;   
+    novaSenha=pass;
     
 }
 
+function copyPass(){    
+    navigator.clipboard.writeText(novaSenha).then(()=> alert("Senha copiada com sucesso!"));
+
+}
