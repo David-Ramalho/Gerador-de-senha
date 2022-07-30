@@ -136,6 +136,7 @@ body{
     border-radius: 50%;
     top: 5px;
     cursor: pointer;
+    opacity: 0.3;
 }
 
 .locker{
