@@ -14,11 +14,12 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url(./assets/Back.jpg);
 }
 
 .logo{
     max-width: 600px;
-    margin-bottom:  24px;
+    margin-bottom:  24px;    
 
 }
 .container-input{
@@ -127,3 +128,4 @@ body{
 .hide{
     display: none;
 }
+
