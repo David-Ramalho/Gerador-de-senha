@@ -15,11 +15,12 @@ body{
     align-items: center;
     flex-direction: column;
     background-image: url(./assets/Back.jpg);
+    animation: logo-animation 700s infinite linear;
 }
 
 .logo{
     max-width: 600px;
-    margin-bottom:  24px;    
+    margin-bottom:  24px;        
 
 }
 .container-input{
@@ -154,3 +155,8 @@ body{
     
 }
 
+@keyframes logo-animation{
+    0%{background-position: 0 0;}
+    100%{background-position:-2122px;}
+  
+}
