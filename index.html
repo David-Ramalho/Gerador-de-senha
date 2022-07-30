@@ -18,13 +18,14 @@
     <input id="slider" class="slider" type="range" min="3" max="30" value="17"/>
 
     <button id="button" class="button-cta" onclick="generatePass()">Gerar senha</button>
-
+    
 </main>
 
 <div id="container-password"  class="container-password hide">
     <span id="title" class="title">Sua senha gerada:</span> 
     <span id="password" onclick="copyPass()" class="password"></span> 
-    <span class="tooltip">Clique na senha para copiar. ☝</span>        
+    <span id="tooltip" onclick="showLock()" class="tooltip">Clique na senha para copiar. ☝</span>   
+    <img id="locker" class="locker hide" src="./assets/locker.webp" alt="locker"/>     
 </div>
 
 <script src="Script.JS"></script>

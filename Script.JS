@@ -4,6 +4,8 @@ let buttonElement=document.querySelector("#button");
 let sizePass=document.querySelector("#valor");
 let password=document.querySelector("#password");
 
+let lock= document.querySelector("#locker");
+
 let containerPass= document.querySelector("#container-password");
 
 let charset= "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNMÇç!@#$%&-_123456789";
@@ -33,4 +35,8 @@ function generatePass(){
 function copyPass(){    
     navigator.clipboard.writeText(novaSenha).then(()=> alert("Senha copiada com sucesso!"));
 
+}
+
+function showLock(){
+    lock.classList.remove("hide");
 }

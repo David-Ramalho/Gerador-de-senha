@@ -135,3 +135,8 @@ body{
     border-radius: 50%;
     top: 5px;
 }
+
+.locker{
+    width: 5%;
+    margin-top: 20px;
+}
