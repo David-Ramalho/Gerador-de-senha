@@ -97,6 +97,9 @@ body{
 .button-cta:hover{
     transform: scale(1.05);
 }
+.tooltip:hover{
+    transform: scale(1.05);
+}
 
 .tooltip{
     color: rgb(214, 212, 209);
@@ -110,12 +113,14 @@ body{
     visibility: hidden;
     opacity: 0;
     transition: all 0.6s ease-in-out;
+    transition: transform 0.2s;
+    
 }
 
 .container-password:hover .tooltip{
     visibility: visible;
     opacity: 1;
-    bottom: 30px;
+    bottom: 30px;    
 }
 
 
